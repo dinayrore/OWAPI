@@ -1,3 +1,0 @@
-#
-class BaseStat < ApplicationRecord
-end
