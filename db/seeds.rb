@@ -111,6 +111,33 @@ stats = Stat.create([{ health: 200, armor: 0, sheild: 0 },
                      { health: 200, armor: 0, sheild: 200 },
                      { health: 50, armor: 0, sheild:  150 }])
 
+HeroStat.create([{ hero: heroes.first, stat: stats.first},
+                 { hero: heroes[1], stat: stats[1] },
+                 { hero: heroes[1], stat: stats[2] },
+                 { hero: heroes[2], stat: stats[3] },
+                 { hero: heroes[2], stat: stats[4] },
+                 { hero: heroes[3], stat: stats.first },
+                 { hero: heroes[4], stat: stats.first },
+                 { hero: heroes[5], stat: stats.first },
+                 { hero: heroes[6], stat: stats.first },
+                 { hero: heroes[7], stat: stats.first },
+                 { hero: heroes[8], stat: stats[5] },
+                 { hero: heroes[9], stat: stats.first },
+                 { hero: heroes[10], stat: stats.first },
+                 { hero: heroes[11], stat: stats[5] },
+                 { hero: heroes[12], stat: stats[6] },
+                 { hero: heroes[13], stat: stats[7] },
+                 { hero: heroes[14], stat: stats.first },
+                 { hero: heroes[15], stat: stats[8] },
+                 { hero: heroes[16], stat: stats.first },
+                 { hero: heroes[17], stat: stats[9] },
+                 { hero: heroes[18], stat: stats.first },
+                 { hero: heroes[19], stat: stats[10] },
+                 { hero: heroes[19], stat: stats[11] },
+                 { hero: heroes[20], stat: stats[12] },
+                 { hero: heroes[21], stat: stats[13] },
+                 { hero: heroes[22], stat: stats.first }])
+
 weapons = Weapon.create([{ title: 'Biotic Rifle', hero: heroes.first,
                            description: 'Ana’s rifle shoots darts that can
                            restore health to her allies or deal ongoing damage
