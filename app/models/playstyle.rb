@@ -1,0 +1,2 @@
+class Playstyle < ApplicationRecord
+end
