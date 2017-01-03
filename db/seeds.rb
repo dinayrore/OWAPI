@@ -327,173 +327,253 @@ weapons = Weapon.create([{ title: 'Biotic Rifle', hero: heroes.first,
                           Hellfire Shotguns at breakneck speed, dealing massive
                           damage to all nearby enemies.',
                           image: 'https://blzgdapipro-a.akamaihd.net/hero/reaper/ability-death-blossom/icon-ability.png' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },{ title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero:
-                          heroes[3], description: '', image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' },
-                          { title: '', hero: heroes[3],
-                          description: '',
-                          image: '' }, ])
+                          { title: 'Rocket Hammer', hero: heroes[12],
+                          description: 'Reinhardt’s Rocket Hammer is an exemplary
+                          melee weapon, able to deal punishing damage in a wide
+                          arc with every swing.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/reinhardt/ability-rocket-hammer/icon-ability.png' },
+                          { title: 'Barrier Field', hero:
+                          heroes[12], description: 'Reinhardt projects a broad,
+                          forward-facing energy barrier, which can absorb
+                          substantial damage before it is destroyed. Though
+                          Reinhardt can protect himself and his companions
+                          behind the barrier, he cannot attack while sustaining
+                          it.', image: 'https://blzgdapipro-a.akamaihd.net/hero/reinhardt/ability-shield/icon-ability.png' },
+                          { title: 'Charge', hero: heroes[12],
+                          description: 'Reinhardt charges forth in a straight line,
+                          pinning the first enemy in his path and knocking others
+                          aside. If he collides with a wall, the foe he’s carrying
+                          suffers extreme damage.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/reinhardt/ability-charge/icon-ability.png' },
+                          { title: 'Fire Strike', hero: heroes[12],
+                          description: 'By whipping his Rocket Hammer forward,
+                          Reinhardt slings a flaming projectile which pierces and
+                          damages any enemies it touches.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/reinhardt/ability-fire-strike/icon-ability.png' },
+                          { title: 'EarthShatter (Ultimate)', hero:
+                          heroes[12], description: 'Reinhardt forcefully slams
+                          his Rocket Hammer into the ground, knocking down and
+                          damaging all enemies in front of him.', image: 'https://blzgdapipro-a.akamaihd.net/hero/reinhardt/ability-earth-shatter/icon-ability.png' },
+                          { title: 'Scrap Gun', hero: heroes[13],
+                          description: "Roadhog's Scrap Gun fires short-range
+                          blasts of shrapnel with a wide spread. Alternatively,
+                          it can launch a shrapnel ball that detonates farther away,
+                          scattering metal fragments from the point of impact.",
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/roadhog/ability-scrap-gun/icon-ability.png' },
+                          { title: 'Take A Breather', hero: heroes[13],
+                          description: 'Roadhog restores a chunk of his health
+                          over a brief period of time.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/roadhog/ability-take-a-breather/icon-ability.png' },
+                          { title: 'Chain Hook', hero:
+                          heroes[13], description: 'Roadhog hurls his chain at a
+                          target; if it catches, he yanks them into close range.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/roadhog/ability-chain-hook/icon-ability.png' },
+                          { title: 'Whole Hog (Ultimate)', hero: heroes[13],
+                          description: 'After cramming a top-loader onto his
+                          Scrap Gun, Roadhog pours in ammo. For a short time, he
+                          can crank out a stream of shrapnel that knocks back enemies.
+                          ', image: 'https://blzgdapipro-a.akamaihd.net/hero/roadhog/ability-whole-hog/icon-ability.png' },
+                          { title: 'Heavy Pulse Rifle', hero: heroes[14],
+                          description: 'Soldier: 76’s rifle remains particularly
+                          steady while unloading fully-automatic pulse fire.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/soldier-76/ability-heavy-pulse-rifle/icon-ability.png' },{ title: 'Helix Rockets', hero:
+                          heroes[14], description: 'Tiny rockets spiral out of
+                          Soldier: 76’s Pulse Rifle in a single burst. The
+                          rockets’ explosion damages enemies in a small radius.', image: 'https://blzgdapipro-a.akamaihd.net/hero/soldier-76/ability-helix-rockets/icon-ability.png' },
+                          { title: 'Sprint', hero: heroes[14],
+                          description: 'Whether he needs to evade a firefight or
+                          get back into one, Soldier: 76 can rush ahead in a burst
+                          of speed. His sprint ends if he takes an action other
+                          than charging forward.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/soldier-76/ability-sprint/icon-ability.png' },
+                          { title: 'Biotic Field', hero: heroes[14],
+                          description: 'Soldier: 76 plants a biotic emitter on
+                          the ground. Its energy projection restores health to 76
+                          and any of his squadmates within the field.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/soldier-76/ability-biotic-field/icon-ability.png' },
+                          { title: 'Tactical Visor (Ultimate)', hero:
+                          heroes[14], description: 'Soldier: 76’s pinpoint
+                          targeting visor “locks” his aim on the threat closest
+                          to his crosshairs. If an enemy leaves his line of sight,
+                          Soldier: 76 can quickly switch to another target.', image: 'https://blzgdapipro-a.akamaihd.net/hero/soldier-76/ability-tactical-visor/icon-ability.png' },
+                          { title: 'Photon Projector', hero: heroes[15],
+                          description: 'Symmetra’s weapon emits a short-range
+                          beam that homes in on a nearby enemy, dealing continuous
+                          damage that increases the longer it is connected. The
+                          projector can also release a charged energy ball that
+                          deals high damage.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/symmetra/ability-photon-projector/icon-ability.png' },
+                          { title: 'Sentry Turret', hero: heroes[15],
+                          description: 'Symmetra sets up a small turret that
+                          automatically fires speed-reducing blasts at the nearest
+                          enemy within range. Several turrets can be built on the
+                          battlefield at once.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/symmetra/ability-sentry-turret/icon-ability.png' },
+                          { title: 'Photon Barrier', hero:
+                          heroes[15], description: 'Symmetra projects a moving
+                          barrier that absorbs damage as it travels forward.', image: 'https://blzgdapipro-a.akamaihd.net/hero/symmetra/ability-photon-shield/icon-ability.png' },
+                          { title: 'Teleporter', hero: heroes[15],
+                          description: 'Symmetra places a teleporter exit pad at
+                          her current location, and connects it to a teleporter
+                          entry pad at her team’s starting point. Allies can travel
+                          through the entry pad to the exit pad instantly, enabling
+                          them to return to the fight swiftly after being defeated.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/symmetra/ability-teleporter-pad/icon-ability.png' },
+                          { title: 'Shield Generator (Ultimate)', hero: heroes[15],
+                          description: 'Symmetra deploys a wide-radius generator
+                          that provides increased shielding to her entire team.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/symmetra/ability-shield-generator/icon-ability.png' },
+                          { title: 'Rivet Gun', hero:
+                          heroes[16], description: 'Torbjörn fires rivets at long
+                          range, or ejects molten metal from his gun in a short,
+                          close-range burst.', image: 'https://blzgdapipro-a.akamaihd.net/hero/torbjorn/ability-rivet-gun/icon-ability.png' },
+                          { title: 'Forge Hammer', hero: heroes[16],
+                          description: 'Torbjörn uses his multipurpose hammer to
+                          build, upgrade and repair turrets. In a pinch, it can
+                          also be swung as a weapon.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/torbjorn/ability-forge-hammer/icon-ability.png' },
+                          { title: 'Build Turret', hero: heroes[16],
+                          description: 'Torbjörn constructs an enemy-tracking
+                          autocannon. He can use his Forge Hammer to repair or
+                          upgrade it, increasing its health and adding a second
+                          cannon barrel and a rocket launcher.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/torbjorn/ability-build-turret/icon-ability.png' },
+                          { title: 'Armor Pack', hero:
+                          heroes[16], description: 'Torbjörn deploys an armor
+                          upgrade; either he or his allies can pick it up to
+                          absorb some damage.', image: 'https://blzgdapipro-a.akamaihd.net/hero/torbjorn/ability-armor-pack/icon-ability.png' },
+                          { title: 'Molten Core (Ultimate)', hero: heroes[16],
+                          description: 'After overheating his personal forge,
+                          Torbjörn gains a significant amount of armor and scrap.
+                          He also attacks (and builds and repairs turrets) far
+                          faster than normal.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/torbjorn/ability-molten-core/icon-ability.png' },
+                          { title: 'Pulse Pistols', hero: heroes[17],
+                          description: 'Tracer rapid-fires both of her pistols.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/tracer/ability-pulse-pistols/icon-ability.png' },
+                          { title: 'Blink', hero:
+                          heroes[17], description: 'Tracer zips horizontally
+                          through space in the direction she’s moving, and
+                          reappears several yards away. She stores up to three
+                          charges of the blink ability and generates more every
+                          few seconds.', image: 'https://blzgdapipro-a.akamaihd.net/hero/tracer/ability-blink/icon-ability.png' },
+                          { title: 'Recall', hero: heroes[17],
+                          description: 'Tracer bounds backward in time, returning
+                          her health, ammo and position on the map to precisely
+                          where they were a few seconds before.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/tracer/ability-recall/icon-ability.png' },
+                          { title: 'Pulse Bomb (Ultimate)', hero: heroes[17],
+                          description: 'Tracer lobs a large bomb that adheres
+                          to any surface or unfortunate opponent it lands on.
+                          After a brief delay, the bomb explodes, dealing high
+                          damage to all enemies within its blast radius.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/tracer/ability-pulse-bomb/icon-ability.png' },
+                          { title: "Widow's Kiss", hero:
+                          heroes[18], description: 'Widowmaker’s versatile sniper
+                          rifle is ideal for scope-aimed shots at distant targets.
+                          Should targets close to medium range, the rifle can also
+                          be fired in fully-automatic mode.', image: 'https://blzgdapipro-a.akamaihd.net/hero/widowmaker/ability-widows-kiss/icon-ability.png' },
+                          { title: 'Grappling Hook', hero: heroes[18],
+                          description: 'Widowmaker launches a grappling hook towards
+                          the location she’s aiming at – when the hook connects with
+                          a scalable surface, she’s quickly drawn towards it, allowing
+                          her to expand her view of the battlefield and evade or flank
+                          targets.', image: 'https://blzgdapipro-a.akamaihd.net/hero/widowmaker/ability-grappling-hook/icon-ability.png' },
+                          { title: 'Venom Mine', hero: heroes[18],
+                          description: 'Widowmaker adheres a swiftly-arming venom
+                          mine to nearly any surface. When a target wanders within
+                          range of the mine’s motion trigger, it explodes, delivering
+                          poison gas to any enemies in the vicinity.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/widowmaker/ability-venom-mine/icon-ability.png' },
+                          { title: 'Infra-Sight (Ultimate)', hero:
+                          heroes[18], description: 'Widowmaker’s recon visor allows
+                          her to see the heat signatures of her targets through walls
+                          and objects for a moderate amount of time. This enhanced
+                          vision is shared with her allies.', image: 'https://blzgdapipro-a.akamaihd.net/hero/widowmaker/ability-infra-sight/icon-ability.png' },
+                          { title: 'Tesla Cannon', hero: heroes[19],
+                          description: 'Winston’s weapon fires a short-range
+                          electric barrage for as long as he holds down the trigger.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/winston/ability-tesla-cannon/icon-ability.png' },
+                          { title: 'Jump Pack', hero: heroes[19],
+                          description: 'Assisted by his energy pack, Winston
+                          lunges through the air, dealing significant damage and
+                          staggering nearby enemies when he lands.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/winston/ability-jump-pack/icon-ability.png' },
+                          { title: 'Barrier Projector', hero:
+                          heroes[19], description: "Winston’s barrier projector
+                          extends a bubble-shaped field that absorbs damage until
+                          it's destroyed. Allies protected by the barrier can return
+                          fire from within it.", image: 'https://blzgdapipro-a.akamaihd.net/hero/winston/ability-shield-projector/icon-ability.png' },
+                          { title: 'Primal Rage (Ultimate)', hero: heroes[19],
+                          description: 'Winston embraces his animal nature,
+                          significantly boosting his health and making him very
+                          difficult to kill, strengthening his melee attack, and
+                          allowing him to use his Jump Pack ability more frequently.
+                          While raging, Winston can only make melee and Jump Pack attacks.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/winston/ability-primal-rage/icon-ability.png' },
+                          { title: 'Particle Cannon', hero: heroes[20],
+                          description: 'Zarya’s mighty Particle Cannon unleashes
+                          a short-range beam of destructive energy. Alternatively,
+                          Zarya can lob an explosive charge to strike multiple opponents.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/zarya/ability-particle-cannon/icon-ability.png' },
+                          { title: 'Particle Barrier', hero:
+                          heroes[20], description: 'The Particle Cannon can emit
+                          a personal barrier that shields Zarya against incoming
+                          attacks, redirecting their energy to enhance her weapon’s
+                          damage and the width of its beam.', image: 'https://blzgdapipro-a.akamaihd.net/hero/zarya/ability-particle-barrier/icon-ability.png' },
+                          { title: 'Projected Barrier', hero: heroes[20],
+                          description: 'Zarya surrounds one of her teammates
+                          with an energy barrier that simultaneously absorbs
+                          fire and boosts the power of her Particle Cannon.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/zarya/ability-projected-barrier/icon-ability.png' },
+                          { title: 'Graviton Surge (Ultimate)', hero: heroes[20],
+                          description: 'Zarya launches a gravity bomb that draws
+                          in enemy combatants and deals damage while they’re trapped.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/zarya/ability-graviton-surge/icon-ability.png' },
+                          { title: 'Orb Of Destruction', hero:
+                          heroes[21], description: 'Zenyatta projects his destructive
+                          energy orbs either individually, or in a rapid-fire volley
+                          after a few seconds spent gathering power.', image: 'https://blzgdapipro-a.akamaihd.net/hero/zenyatta/ability-orb-of-destruction/icon-ability.png' },
+                          { title: 'Orb Of Harmony', hero: heroes[21],
+                          description: "Zenyatta casts an orb over the shoulder
+                          of a targeted ally. So long as Zenyatta maintains line
+                          of sight, the orb slowly restores health to his ally.
+                          Only one ally can receive the orb's benefit at a time.",
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/zenyatta/ability-orb-of-harmony/icon-ability.png' },
+                          { title: 'Orb Of Discord', hero: heroes[21],
+                          description: "Attaching the orb of discord to an
+                          opponent amplifies the amount of damage they receive
+                          for as long as Zenyatta maintains line of sight.
+                          Only one opponent can suffer the orb's effects at a time.",
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/zenyatta/ability-orb-of-discord/icon-ability.png' },
+                          { title: 'Transcendence (Ultimate)', hero:
+                          heroes[21], description: 'Zenyatta enters a state of
+                          heightened existence for a short period of time. While
+                          transcendent, Zenyatta cannot use abilities or weapons,
+                          but is immune to damage and automatically restores his health
+                          and that of nearby allies.', image: 'https://blzgdapipro-a.akamaihd.net/hero/zenyatta/ability-transcendence/icon-ability.png' },
+                          { title: 'Machine Pistol', hero: heroes[22],
+                          description: "Sombra’s fully-automatic machine pistol
+                          fires in a short-range spread.",
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/sombra/ability-machine-pistol/icon-ability.png' },
+                          { title: 'Hack', hero: heroes[22],
+                          description: 'Sombra hacks enemies to temporarily stop
+                          them from using their abilities, or hacks first aid kits
+                          to make them useless to her opponents.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/sombra/ability-hack/icon-ability.png' },
+                          { title: 'Thermoptic Camo', hero:
+                          heroes[22], description: 'Sombra becomes invisible for
+                          a short period of time, during which her speed is
+                          boosted considerably. Attacking, using offensive
+                          abilities, or taking damage disables her camouflage', image: 'https://blzgdapipro-a.akamaihd.net/hero/sombra/ability-thermoptic-camo/icon-ability.png' },
+                          { title: 'Translocator', hero: heroes[22],
+                          description: 'Sombra tosses out a translocator beacon.
+                          She can instantly return to the beacon’s location while
+                          it is active (including when it’s in mid-flight).',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/sombra/ability-translocator/icon-ability.png' },
+                          { title: 'EMP', hero: heroes[22],
+                          description: 'Sombra discharges electromagnetic energy
+                          in a wide radius, destroying enemy barriers and shields
+                          and hacking all opponents caught in the blast.',
+                          image: 'https://blzgdapipro-a.akamaihd.net/hero/sombra/ability-emp/icon-ability.png' }
+                           ])
