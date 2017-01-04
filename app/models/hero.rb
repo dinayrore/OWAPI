@@ -4,4 +4,5 @@ class Hero < ApplicationRecord
   has_many :weapon
   has_many :skin
   has_many :stat
+  has_one :playstlye
 end
