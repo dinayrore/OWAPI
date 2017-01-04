@@ -1,5 +1,5 @@
 #
 class Weapon < ApplicationRecord
   belongs_to :hero
-  has_many :control
+  has_one :control
 end
