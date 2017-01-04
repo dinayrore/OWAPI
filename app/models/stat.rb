@@ -1,4 +1,4 @@
 #
 class Stat < ApplicationRecord
-  belongs_to :hero
+  has_many :hero
 end
