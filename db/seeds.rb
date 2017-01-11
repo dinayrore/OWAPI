@@ -639,3 +639,23 @@ weapons = Weapon.create([{ title: 'Biotic Rifle', hero: heroes.first,
                            in a wide radius, destroying enemy barriers and shields
                            and hacking all opponents caught in the blast.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/sombra/ability-emp/icon-ability.png' }])
+
+controls = Control.create([{
+
+  }])
+
+WeaponControl.create([{
+
+  }])
+
+Skin.create([{
+
+  }])
+
+Map.create([{
+
+  }])
+  
+Playstyle.create([{
+
+  }])
