@@ -10,18 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 10) do
+ActiveRecord::Schema.define(version: 9) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "controls", force: :cascade do |t|
-    t.integer  "weapon_id"
     t.string   "hotkey"
     t.string   "xbox"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["weapon_id"], name: "index_controls_on_weapon_id", using: :btree
   end
 
   create_table "hero_stats", force: :cascade do |t|
@@ -40,6 +38,8 @@ ActiveRecord::Schema.define(version: 10) do
     t.string   "occupation"
     t.string   "base_of_operations"
     t.string   "affiliation"
+    t.string   "quote"
+    t.string   "origin_story"
     t.string   "image"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
@@ -48,6 +48,7 @@ ActiveRecord::Schema.define(version: 10) do
   create_table "maps", force: :cascade do |t|
     t.string   "title"
     t.string   "image"
+    t.string   "team_comp"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -66,7 +67,7 @@ ActiveRecord::Schema.define(version: 10) do
 
   create_table "skins", force: :cascade do |t|
     t.integer  "heroes_id"
-    t.string   "name"
+    t.string   "title"
     t.string   "event"
     t.integer  "cost"
     t.string   "rarity"
@@ -74,12 +75,6 @@ ActiveRecord::Schema.define(version: 10) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["heroes_id"], name: "index_skins_on_heroes_id", using: :btree
-  end
-
-  create_table "specs", force: :cascade do |t|
-    t.string   "title"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "stats", force: :cascade do |t|
@@ -90,14 +85,13 @@ ActiveRecord::Schema.define(version: 10) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "weapon_specs", force: :cascade do |t|
+  create_table "weapon_controls", force: :cascade do |t|
     t.integer  "weapon_id"
-    t.integer  "spec_id"
-    t.string   "amount"
+    t.integer  "control_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["spec_id"], name: "index_weapon_specs_on_spec_id", using: :btree
-    t.index ["weapon_id"], name: "index_weapon_specs_on_weapon_id", using: :btree
+    t.index ["control_id"], name: "index_weapon_controls_on_control_id", using: :btree
+    t.index ["weapon_id"], name: "index_weapon_controls_on_weapon_id", using: :btree
   end
 
   create_table "weapons", force: :cascade do |t|
@@ -110,12 +104,11 @@ ActiveRecord::Schema.define(version: 10) do
     t.index ["heroes_id"], name: "index_weapons_on_heroes_id", using: :btree
   end
 
-  add_foreign_key "controls", "weapons"
   add_foreign_key "hero_stats", "heroes", column: "heroes_id"
   add_foreign_key "hero_stats", "stats"
   add_foreign_key "playstyles", "heroes", column: "heroes_id"
   add_foreign_key "skins", "heroes", column: "heroes_id"
-  add_foreign_key "weapon_specs", "specs"
-  add_foreign_key "weapon_specs", "weapons"
+  add_foreign_key "weapon_controls", "controls"
+  add_foreign_key "weapon_controls", "weapons"
   add_foreign_key "weapons", "heroes", column: "heroes_id"
 end
