@@ -8,8 +8,7 @@ class CreateHeroes < ActiveRecord::Migration[5.0]
       t.string :occupation
       t.string :base_of_operations
       t.string :affiliation
-      t.string :quote
-      t.string :origin_story
+      t.string :background
       t.string :image
 
       t.timestamps
