@@ -150,7 +150,9 @@ heroes = Hero.create([
 
                       ])
 
-stats = Stat.create([
+stats = Stat.create([ ############################
+                      # Hero / Health Statistics #
+                      ############################
                      { health: 200, armor: 0, sheild: 0 },
                      { health: 200, armor: 100, sheild: 0 },
                      { health: 200, armor: 250, sheild: 0 },
@@ -164,7 +166,11 @@ stats = Stat.create([
                      { health: 400, armor: 100, sheild: 0 },
                      { health: 900, armor: 100, sheild: 0 },
                      { health: 200, armor: 0, sheild: 200 },
-                     { health: 50, armor: 0, sheild:  150 }
+                     { health: 50, armor: 0, sheild:  150 },
+                      #####################
+                      # Weapon Statistics #
+                      #####################
+                    { ammo: ,	fire_rate: , duration: , cooldown: , damage: , range: }
                     ])
 
 HeroStat.create([
@@ -193,10 +199,14 @@ HeroStat.create([
                  { hero: heroes[19], stat: stats[11] },
                  { hero: heroes[20], stat: stats[12] },
                  { hero: heroes[21], stat: stats[13] },
-                 { hero: heroes[22], stat: stats.first }
+                 { hero: heroes[22], stat: stats.first },
+                 { hero: heroes[23], stat: },
+                 { hero: hero[24], stat: }
                 ])
 
-weapons = Weapon.create([
+weapons = Weapon.create([ #######
+                          # Ana #
+                          #######
                          { title: 'Biotic Rifle', hero: heroes.first,
                            description: "Ana\’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle\’s scope to zoom in on targets and make highly accurate shots.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/ana/ability-biotic-rifle/icon-ability.png' },
@@ -211,7 +221,9 @@ weapons = Weapon.create([
                          { title: 'Nano Boost (Ultimate)', hero: heroes.first,
                            description: "After Ana hits one of her allies with a combat boost, they temporarily move faster, deal more damage, and take less damage from enemies\’ attacks.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/ana/ability-stim-boost/icon-ability.png' },
-
+                          ###########
+                          # Bastion #
+                          ###########
                          { title: 'Configuration: Recon', hero: heroes[1],
                            description: 'In Recon mode, Bastion is fully mobile, outfitted with a submachine gun that fires steady bursts of bullets at medium range.', image: 'https://blzgdapipro-a.akamaihd.net/hero/bastion/ability-config-recon/icon-ability.png' },
 
@@ -228,7 +240,9 @@ weapons = Weapon.create([
                          { title: 'Configuration: Tank (Ultimate)', hero: heroes[1],
                            description: "In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannon\’s
                            explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time.", image: 'https://blzgdapipro-a.akamaihd.net/hero/bastion/ability-config-tank/icon-ability.png' },
-
+                          ########
+                          # D.Va #
+                          ########
                          { title: 'Fusion Cannons (Mech)', hero: heroes[2],
                            description: "D.Va\'s mech is equipped with twin short-range rotating cannons. They lay down continuous, high-damage fire without needing to reload, but slow D.Va\’s movement while they’re active.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/dva/ability-fusion-cannons/icon-ability.png' },
@@ -250,7 +264,9 @@ weapons = Weapon.create([
                          { title: 'Call Mech (Pilot Ultimate)', hero: heroes[2],
                            description: 'If her armored battle suit is destroyed, D.Va can call down a fresh mech and return to the fray.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/dva/ability-call-mech/icon-ability.png' },
-
+                          #########
+                          # Genji #
+                          #########
                          { title: 'Shuriken', hero: heroes[3],
                            description: 'Genji looses three deadly throwing stars in quick succession. Alternatively, he can throw three shuriken in a wider spread.', image: 'https://blzgdapipro-a.akamaihd.net/hero/genji/ability-shuriken/icon-ability.png' },
 
@@ -265,7 +281,9 @@ weapons = Weapon.create([
                          { title: 'Dragonblade (Ultimate)', hero: heroes[3],
                            description: 'Genji brandishes his katana for a brief period of time. Until he sheathes his sword, Genji can deliver killing strikes to any targets within his reach.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/genji/ability-dragonblade/icon-ability.png'},
-
+                          #########
+                          # Hanzo #
+                          #########
                          { title: 'Storm Bow', hero: heroes[4],
                            description: 'Hanzo nocks and fires an arrow at his target.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/hanzo/ability-storm-bow/icon-ability.png' },
@@ -279,7 +297,9 @@ weapons = Weapon.create([
 
                          { title: 'Dragonstrike (Ultimate)', hero: heroes[4],
                            description: 'Hanzo summons a Spirit Dragon which travels through the air in a line. It passes through walls in its way, devouring any enemies it encounters.', image: 'https://blzgdapipro-a.akamaihd.net/hero/hanzo/ability-dragon-strike/icon-ability.png' },
-
+                          ###########
+                          # Junkrat #
+                          ###########
                          { title: 'Frag Launcher', hero: heroes[5],
                            description: "Junkrat\'s Frag Launcher lobs grenades a significant distance. They bounce to reach their destination, and blow up when they strike an enemy.", image: 'https://blzgdapipro-a.akamaihd.net/hero/junkrat/ability-frag-launcher/icon-ability.png' },
 
@@ -294,7 +314,9 @@ weapons = Weapon.create([
 
                          { title: 'Rip-Tire', hero: heroes[5],
                            description: 'Junkrat revs up a motorized tire bomb and sends it rolling across the battlefield, climbing over walls and obstacles. He can remotely detonate the RIP-Tire to deal serious damage to enemies caught in the blast, or just wait for it to explode on its own.', image: 'https://blzgdapipro-a.akamaihd.net/hero/junkrat/ability-rip-tire/icon-ability.png' },
-
+                          #########
+                          # Lucio #
+                          #########
                          { title: 'Sonic Amplifier', hero: heroes[6],
                            description: 'Lúcio can hit his enemies with sonic projectiles or knock them back with a blast of sound.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/lucio/ability-sonic-amplifier/icon-ability.png' },
@@ -311,7 +333,9 @@ weapons = Weapon.create([
                          { title: 'Sound Barrier (Ultimate)', hero: heroes[6],
                            description: "Protective waves radiate out from Lúcio\’s Sonic Amplifier, briefly providing him and nearby allies
                            with personal shields.", image: 'https://blzgdapipro-a.akamaihd.net/hero/lucio/ability-sound-barrier/icon-ability.png' },
-
+                          ##########
+                          # McCree #
+                          ##########
                          { title: 'Peacekeeper', hero: heroes[7],
                            description: "McCree fires off a round from his trusty six-shooter. He can fan the Peacekeeper\’s hammer to swiftly unload the entire cylinder.", image: 'https://blzgdapipro-a.akamaihd.net/hero/mccree/ability-peacekeeper/icon-ability.png' },
 
@@ -321,10 +345,12 @@ weapons = Weapon.create([
                          { title: 'Flashbang', hero: heroes[7],
                            description: 'McCree heaves a blinding grenade that explodes shortly after it leaves his hand. The blast staggers enemies in a small radius.', image: 'https://blzgdapipro-a.akamaihd.net/hero/mccree/ability-flashbang/icon-ability.png' },
 
-                         { title: 'Deadeye', hero: heroes[7],
+                         { title: 'Deadeye (Ultimate)', hero: heroes[7],
                            description: "Focus. Mark. Draw. McCree takes a few precious moments to aim; when he\’s ready to fire, he shoots every enemy in his line of sight. The weaker his targets are, the faster he\’ll line up a killshot.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/mccree/ability-deadeye/icon-ability.png' },
-
+                          #######
+                          # Mei #
+                          #######
                          { title: 'Endothermic Blaster', hero: heroes[8],
                            description: "Mei\’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place. Mei can also use her blaster to shoot icicle-like projectiles at medium range.", image: 'https://blzgdapipro-a.akamaihd.net/hero/mei/ability-endothermic-blaster/icon-ability.png' },
 
@@ -337,7 +363,9 @@ weapons = Weapon.create([
                          { title: 'Blizzard (Ultimate)', hero: heroes[8],
                            description: 'Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/mei/ability-blizzard/icon-ability.png' },
-
+                          #########
+                          # Mercy #
+                          #########
                          { title: 'Caduceus Staff', hero: heroes[9],
                            description: "Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally\’s health or increase the amount of damage they deal.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/mercy/ability-caduceus-staff/icon-ability.png' },
@@ -357,7 +385,9 @@ weapons = Weapon.create([
                          { title: 'Resurrect (Ultimate)', hero: heroes[9],
                            description: 'Mercy radiates restorative power, bringing nearby dead allies back into the fight with
                            full health.', image: 'https://blzgdapipro-a.akamaihd.net/hero/mercy/ability-resurrect/icon-ability.png' },
-
+                          ##########
+                          # Pharah #
+                          ##########
                          { title: 'Rocket Launcher', hero: heroes[10],
                            description: "Pharah\’s primary weapon launches rockets that deal significant damage in a wide blast radius.", image: 'https://blzgdapipro-a.akamaihd.net/hero/pharah/ability-rocket-launcher/icon-ability.png' },
 
@@ -372,7 +402,9 @@ weapons = Weapon.create([
                          { title: 'Barrage (Ultimate)', hero: heroes[10],
                            description: 'Pharah directs a continuous salvo of mini-rockets to destroy groups of enemies.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/pharah/ability-barrage/icon-ability.png' },
-
+                          ##########
+                          # Reaper #
+                          ##########
                          { title: 'Hellfire Shotgun', hero: heroes[11],
                            description: 'Reaper tears enemies apart with twin shotguns.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/reaper/ability-hellfire-shotguns/icon-ability.png' },
@@ -388,7 +420,9 @@ weapons = Weapon.create([
                          { title: 'Death Blossom (Ultimate)', hero: heroes[11],
                            description: 'In a blur of motion, Reaper empties both Hellfire Shotguns at breakneck speed, dealing massive damage to all nearby enemies.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/reaper/ability-death-blossom/icon-ability.png' },
-
+                          #############
+                          # Reinhardt #
+                          #############
                          { title: 'Rocket Hammer', hero: heroes[12],
                            description: "Reinhardt\’s Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing.", image: 'https://blzgdapipro-a.akamaihd.net/hero/reinhardt/ability-rocket-hammer/icon-ability.png' },
 
@@ -406,7 +440,9 @@ weapons = Weapon.create([
 
                          { title: 'EarthShatter (Ultimate)', hero: heroes[12],
                            description: 'Reinhardt forcefully slams his Rocket Hammer into the ground, knocking down and damaging all enemies in front of him.', image: 'https://blzgdapipro-a.akamaihd.net/hero/reinhardt/ability-earth-shatter/icon-ability.png' },
-
+                          ###########
+                          # Roadhog #
+                          ###########
                          { title: 'Scrap Gun', hero: heroes[13],
                            description: "Roadhog\'s Scrap Gun fires short-range blasts of shrapnel with a wide spread. Alternatively, it can launch a shrapnel ball that detonates farther away, scattering metal fragments from the point of impact.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/roadhog/ability-scrap-gun/icon-ability.png' },
@@ -422,7 +458,9 @@ weapons = Weapon.create([
                          { title: 'Whole Hog (Ultimate)', hero: heroes[13],
                            description: 'After cramming a top-loader onto his Scrap Gun, Roadhog pours in ammo. For a short time, he can crank out a stream of shrapnel that knocks back enemies.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/roadhog/ability-whole-hog/icon-ability.png' },
-
+                          ##############
+                          # Soldier-76 #
+                          ##############
                          { title: 'Heavy Pulse Rifle', hero: heroes[14],
                            description: "Soldier: 76\’s rifle remains particularly steady while unloading fully-automatic pulse fire.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/soldier-76/ability-heavy-pulse-rifle/icon-ability.png' },
@@ -443,7 +481,9 @@ weapons = Weapon.create([
                            description: "Soldier: 76\’s pinpoint targeting visor \'locks\' his aim on the threat closest
                            to his crosshairs. If an enemy leaves his line of sight,
                            Soldier: 76 can quickly switch to another target.", image: 'https://blzgdapipro-a.akamaihd.net/hero/soldier-76/ability-tactical-visor/icon-ability.png' },
-
+                          ############
+                          # Symmetra #
+                          ############
                          { title: 'Photon Projector', hero: heroes[15],
                            description: "Symmetra\’s weapon emits a short-range beam that homes in on a nearby enemy, dealing continuous
                            damage that increases the longer it is connected. The projector can also release a charged energy ball that
@@ -466,7 +506,9 @@ weapons = Weapon.create([
                          { title: 'Shield Generator (Ultimate)', hero: heroes[15],
                            description: 'Symmetra deploys a wide-radius generator that provides increased shielding to her entire team.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/symmetra/ability-shield-generator/icon-ability.png' },
-
+                          ############
+                          # Torbjorn #
+                          ############
                          { title: 'Rivet Gun', hero: heroes[16],
                            description: 'Torbjörn fires rivets at long range, or ejects molten metal from his gun in a short, close-range burst.', image: 'https://blzgdapipro-a.akamaihd.net/hero/torbjorn/ability-rivet-gun/icon-ability.png' },
 
@@ -484,7 +526,9 @@ weapons = Weapon.create([
                          { title: 'Molten Core (Ultimate)', hero: heroes[16],
                            description: 'After overheating his personal forge, Torbjörn gains a significant amount of armor and scrap. He also attacks (and builds and repairs turrets) far faster than normal.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/torbjorn/ability-molten-core/icon-ability.png' },
-
+                          ##########
+                          # Tracer #
+                          ##########
                          { title: 'Pulse Pistols', hero: heroes[17],
                            description: 'Tracer rapid-fires both of her pistols.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/tracer/ability-pulse-pistols/icon-ability.png' },
@@ -499,7 +543,9 @@ weapons = Weapon.create([
                          { title: 'Pulse Bomb (Ultimate)', hero: heroes[17],
                            description: 'Tracer lobs a large bomb that adheres to any surface or unfortunate opponent it lands on. After a brief delay, the bomb explodes, dealing high damage to all enemies within its blast radius.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/tracer/ability-pulse-bomb/icon-ability.png' },
-
+                          ##############
+                          # Widowmaker #
+                          ##############
                          { title: "Widow\'s Kiss", hero: heroes[18],
                            description: "Widowmaker\’s versatile sniper rifle is ideal for scope-aimed shots at distant targets. Should targets close to medium range, the rifle can also be fired in fully-automatic mode.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/widowmaker/ability-widows-kiss/icon-ability.png' },
@@ -517,7 +563,9 @@ weapons = Weapon.create([
                            description: "Widowmaker’s recon visor allows her to see the heat signatures of her targets through walls
                            and objects for a moderate amount of time. This enhanced vision is shared with her allies.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/widowmaker/ability-infra-sight/icon-ability.png' },
-
+                          ###########
+                          # Winston #
+                          ###########
                          { title: 'Tesla Cannon', hero: heroes[19],
                            description: "Winston\’s weapon fires a short-range electric barrage for as long as he holds down the trigger.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/winston/ability-tesla-cannon/icon-ability.png' },
@@ -535,7 +583,9 @@ weapons = Weapon.create([
                            difficult to kill, strengthening his melee attack, and allowing him to use his Jump Pack ability more frequently.
                            While raging, Winston can only make melee and Jump Pack attacks.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/winston/ability-primal-rage/icon-ability.png' },
-
+                          #########
+                          # Zarya #
+                          #########
                          { title: 'Particle Cannon', hero: heroes[20],
                            description: 'Zarya’s mighty Particle Cannon unleashes a short-range beam of destructive energy. Alternatively,
                            Zarya can lob an explosive charge to strike multiple opponents.',
@@ -551,7 +601,9 @@ weapons = Weapon.create([
 
                          { title: 'Graviton Surge (Ultimate)', hero: heroes[20],
                            description: "Zarya launches a gravity bomb that draws in enemy combatants and deals damage while they\’re trapped.", image: 'https://blzgdapipro-a.akamaihd.net/hero/zarya/ability-graviton-surge/icon-ability.png' },
-
+                          ############
+                          # Zenyatta #
+                          ############
                          { title: 'Orb Of Destruction', hero: heroes[21],
                            description: 'Zenyatta projects his destructive energy orbs either individually, or in a rapid-fire volley
                            after a few seconds spent gathering power.', image: 'https://blzgdapipro-a.akamaihd.net/hero/zenyatta/ability-orb-of-destruction/icon-ability.png' },
@@ -569,7 +621,9 @@ weapons = Weapon.create([
                          { title: 'Transcendence (Ultimate)', hero: heroes[21],
                            description: 'Zenyatta enters a state of heightened existence for a short period of time. While transcendent, Zenyatta cannot use abilities or weapons, but is immune to damage and automatically restores his health
                            and that of nearby allies.', image: 'https://blzgdapipro-a.akamaihd.net/hero/zenyatta/ability-transcendence/icon-ability.png' },
-
+                          ##########
+                          # Sombra #
+                          ##########
                          { title: 'Machine Pistol', hero: heroes[22],
                            description: "Sombra\’s fully-automatic machine pistol fires in a short-range spread.",
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/sombra/ability-machine-pistol/icon-ability.png' },
@@ -587,10 +641,12 @@ weapons = Weapon.create([
                            description: "Sombra tosses out a translocator beacon. She can instantly return to the beacon\’s location while
                            it is active (including when it’s in mid-flight).", image: 'https://blzgdapipro-a.akamaihd.net/hero/sombra/ability-translocator/icon-ability.png' },
 
-                         { title: 'EMP', hero: heroes[22],
+                         { title: 'EMP (Ultimate)', hero: heroes[22],
                            description: 'Sombra discharges electromagnetic energy in a wide radius, destroying enemy barriers and shields
                            and hacking all opponents caught in the blast.', image: 'https://blzgdapipro-a.akamaihd.net/hero/sombra/ability-emp/icon-ability.png' },
-
+                          #########
+                          # Orisa #
+                          #########
                          { title: 'Fusion Driver', hero: heroes[23],
                            description: "Orisa\’s automatic projectile cannon delivers sustained damage, but slows her movement while she fires it.", image: 'https://blzgdapipro-a.akamaihd.net/hero/orisa/ability-fusion-driver/icon-ability.png' },
 
@@ -603,7 +659,7 @@ weapons = Weapon.create([
                          { title: 'Protective Barrier', hero: heroes[23],
                            description: 'Orisa throws out a stationary barrier that can protect her and her allies from enemy fire.', image: 'https://blzgdapipro-a.akamaihd.net/hero/orisa/ability-protective-barrier/icon-ability.png' },
 
-                         { title: 'Supercharger', hero: heroes[23],
+                         { title: 'Supercharger (Ultimate)', hero: heroes[23],
                            description: 'Orisa deploys a device to increase damage inflicted by allies within her line of sight.',
                            image: 'https://blzgdapipro-a.akamaihd.net/hero/orisa/ability-supercharger/icon-ability.png' },
 
@@ -630,7 +686,307 @@ WeaponControl.create([{
 
   }])
 
-Skin.create([{
+Skin.create([  #######
+               # Ana #
+               #######
+             { hero: heroes.first, title: 'Classic', event: '', cost: 'free',
+               rarity: 'basic', image: '' },
+
+             { hero: heroes.first, title: 'Citrine', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes.first, title: 'Garnet', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes.first, title: 'Peridot', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes.first, title: 'Turquoise', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes.first, title: 'Merciful', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes.first, title: 'Shrike', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes.first, title: 'Ghoul', event: 'Halloween', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes.first, title: 'Tal', event: 'Lunar', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes.first, title: 'Wadjet', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes.first, title: 'Wasteland', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes.first, title: 'Captain Amari', event: '', cost: '1000',
+               rarity: 'none', image: '' },
+
+             { hero: heroes.first, title: 'Horus', event: '', cost: '1000',
+               rarity: 'none', image: '' },
+               ###########
+               # Bastion #
+               ###########
+             { hero: heroes[1], title: 'Classic', event: '', cost: 'free',
+               rarity: 'basic', image: '' },
+
+             { hero: heroes[1], title: 'Dawn', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[1], title: 'Meadow', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[1], title: 'Sky', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[1], title: 'Soot', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[1], title: 'Defense Matrix', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[1], title: 'Omnic Crisis', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[1], title: 'Blizzcon 2016', event: 'Blizzcon', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[1], title: 'Tombstone', event: 'Halloween', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[1], title: 'Rooster', event: 'Lunar', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[1], title: 'Null Sector', event: 'Uprising', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[1], title: 'Antique', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[1], title: 'Woodbot', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[1], title: 'Gearbot', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[1], title: 'Steambot', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[1], title: 'Overgrown', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+               ########
+               # D.Va #
+               ########
+             { hero: heroes[2], title: 'Classic', event: '', cost: 'free',
+               rarity: 'basic', image: '' },
+
+             { hero: heroes[2], title: 'Blueberry', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[2], title: 'Lemon-Lime', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[2], title: 'Tangerine', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[2], title: 'Watermelon', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[2], title: 'Carbon Fiber', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[2], title: 'White Rabbit', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[2], title: 'Taegeukgi', event: 'Summer', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[2], title: 'Junker', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[2], title: 'Scavenger', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[2], title: 'B.Va', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[2], title: 'Junebug', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[2], title: 'Palanquin', event: 'Lunar', cost: '1000',
+               rarity: 'legendary', image: '' },
+               #########
+               # Genji #
+               #########
+             { hero: heroes[3], title: 'Classic', event: '', cost: 'free',
+               rarity: 'basic', image: '' },
+
+             { hero: heroes[3], title: 'Azurite', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[3], title: 'Cinnabar', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[3], title: 'Malachite', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[3], title: 'Ochre', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[3], title: 'Carbon Fiber', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[3], title: 'Chrome', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[3], title: 'Nihon', event: 'Summer', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[3], title: 'Sparrow', event: '', cost: '1000',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[3], title: 'Young Genji', event: '', cost: '1000',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[3], title: 'Bedouin', event: '', cost: '1000',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[3], title: 'Nomad', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[3], title: 'Oni', event: 'Promo', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[3], title: 'Blackwatch', event: 'Uprising', cost: '3000',
+               rarity: 'legendary', image: '' },
+               #########
+               # Hanzo #
+               #########
+             { hero: heroes[4], title: 'Classic', event: '', cost: 'free',
+               rarity: 'basic', image: '' },
+
+             { hero: heroes[4], title: 'Azuki', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[4], title: 'Kinoko', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[4], title: 'Midori', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[4], title: 'Sora', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[4], title: 'Cloud', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[4], title: 'Dragon', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[4], title: 'Demon', event: 'Halloween', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[4], title: 'Young Hanzo', event: '', cost: '1000',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[4], title: 'Young Master', event: '', cost: '1000',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[4], title: 'Lone Wolf', event: '', cost: '1000',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[4], title: 'Okami', event: '', cost: '1000',
+               rarity: 'rare', image: '' },
+               ###########
+               # Junkrat #
+               ###########
+             { hero: heroes[5], title: 'Classic', event: '', cost: 'free',
+               rarity: 'basic', image: '' },
+
+             { hero: heroes[5], title: 'Bleached', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[5], title: 'Drowned', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[5], title: 'Irradiated', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[5], title: 'Rusted', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[5], title: 'Jailbird', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[5], title: 'Toasted', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[5], title: 'Firework', event: 'Lunar', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[5], title: 'Fool', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[5], title: 'Jester', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[5], title: 'Hayseed', event: 'Uprising', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[5], title: 'Scarecrow', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[5], title: 'Dr. Junkenstein', event: 'Halloween', cost: '',
+               rarity: 'legendary', image: '' },
+               ###########
+               # Lucio #
+               ###########
+             { hero: heroes[6], title: 'Classic', event: '', cost: 'free',
+               rarity: 'basic', image: '' },
+
+             { hero: heroes[6], title: 'Vermelho', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[6], title: 'Azul', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[6], title: 'Laranja', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[6], title: 'Roxo', event: '', cost: '75',
+               rarity: 'common', image: '' },
+
+             { hero: heroes[6], title: 'Auditiva', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[6], title: 'Synaesthesia', event: '', cost: '250',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[6], title: 'Andes', event: 'Winter', cost: '',
+               rarity: 'rare', image: '' },
+
+             { hero: heroes[6], title: 'Hippityhop', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[6], title: 'Ribbit', event: 'Lunar', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[6], title: 'Breakaway', event: 'Uprising', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[6], title: 'Slapshot', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[6], title: 'Selecao', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+             { hero: heroes[6], title: 'Striker', event: '', cost: '1000',
+               rarity: 'legendary', image: '' },
+
+
 
   }])
 
