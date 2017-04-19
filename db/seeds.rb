@@ -732,7 +732,7 @@ Skin.create([  #######
                # Bastion #
                ###########
              { hero: heroes[1], title: 'Classic', event: '', cost: 'free',
-               rarity: 'basic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/b/bc/Bastion_Skin_Classic.png/100px-Bastion_Skin_Classic.png?version=0874bfc9a62e068cbedb35b491188419' },
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/b/bc/Bastion_Skin_Classic.png/100px-Bastion_Skin_Classic.png?version=0874bfc9a62e068cbedb35b491188419' },
 
              { hero: heroes[1], title: 'Dawn', event: '', cost: '75',
                rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/2/2c/Bastion_Skin_Dawn.png/100px-Bastion_Skin_Dawn.png?version=3618b6477b23e0a25cd7a6607ce10c92' },
@@ -782,48 +782,48 @@ Skin.create([  #######
                # D.Va #
                ########
              { hero: heroes[2], title: 'Classic', event: '', cost: 'free',
-               rarity: 'basic', image: '' },
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/5/53/D.Va_Skin_Classic.png/100px-D.Va_Skin_Classic.png?version=54639ada408ad909e9acb6d39b230074' },
 
              { hero: heroes[2], title: 'Blueberry', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/d/d8/D.Va_Skin_Blueberry.png/100px-D.Va_Skin_Blueberry.png?version=c9ff86a5252229bf8a18de1153059f47' },
 
              { hero: heroes[2], title: 'Lemon-Lime', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/2/2c/D.Va_Skin_Lemon-Lime.png/100px-D.Va_Skin_Lemon-Lime.png?version=c7b886042751129564805487caaec586' },
 
              { hero: heroes[2], title: 'Tangerine', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/6/6f/D.Va_Skin_Tangerine.png/100px-D.Va_Skin_Tangerine.png?version=08537bf931859d7f79148245b0521459' },
 
              { hero: heroes[2], title: 'Watermelon', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/a/a9/D.Va_Skin_Watermelon.png/100px-D.Va_Skin_Watermelon.png?version=99a08733e194cd28298dfcf556985619' },
 
              { hero: heroes[2], title: 'Carbon Fiber', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/7/73/D.Va_Skin_Carbon_Fiber.png/100px-D.Va_Skin_Carbon_Fiber.png?version=52d1c73485196f1e782152af4ce29b38' },
 
              { hero: heroes[2], title: 'White Rabbit', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/2/2d/D.Va_Skin_White_Rabbit.png/100px-D.Va_Skin_White_Rabbit.png?version=50ccea68a031f10dc7484d43a16c9a14' },
 
-             { hero: heroes[2], title: 'Taegeukgi', event: 'Summer', cost: '',
-               rarity: 'epic', image: '' },
+             { hero: heroes[2], title: 'Taegeukgi', event: 'Summer Games', cost: '',
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/8e/Summer2016_D.Va_Skin_Taegeukgi.png/100px-Summer2016_D.Va_Skin_Taegeukgi.png?version=177652a328cb2b93cdce68a54114cc1c' },
 
              { hero: heroes[2], title: 'Junker', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/3/30/D.Va_Skin_Junker.png/100px-D.Va_Skin_Junker.png?version=50c80e2880617483f57418a79d485438' },
 
              { hero: heroes[2], title: 'Scavenger', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/e/e7/D.Va_Skin_Scavenger.png/100px-D.Va_Skin_Scavenger.png?version=11716aaa4b62059cf91cc9cc3ec66518' },
 
              { hero: heroes[2], title: 'B.Va', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/a/a7/D.Va_Skin_B.Va.png/100px-D.Va_Skin_B.Va.png?version=e06d720c2d2e735306ef18a024b10afb' },
 
              { hero: heroes[2], title: 'Junebug', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/9f/D.Va_Skin_Junebug.png/100px-D.Va_Skin_Junebug.png?version=79522ec0e1119e68370a9b31058fcfc3' },
 
              { hero: heroes[2], title: 'Palanquin', event: 'Year of the Rooster', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/f/f2/D.Va_Skin_Palanquin.png/100px-D.Va_Skin_Palanquin.png?version=a35037d21cea2b935093fe135261dbf4' },
                #########
                # Genji #
                #########
              { hero: heroes[3], title: 'Classic', event: '', cost: 'free',
-               rarity: 'basic', image: '' },
+               rarity: 'common', image: '' },
 
              { hero: heroes[3], title: 'Azurite', event: '', cost: '75',
                rarity: 'rare', image: '' },
@@ -843,7 +843,7 @@ Skin.create([  #######
              { hero: heroes[3], title: 'Chrome', event: '', cost: '250',
                rarity: 'epic', image: '' },
 
-             { hero: heroes[3], title: 'Nihon', event: 'Summer', cost: '',
+             { hero: heroes[3], title: 'Nihon', event: 'Summer Games', cost: '',
                rarity: 'epic', image: '' },
 
              { hero: heroes[3], title: 'Sparrow', event: '', cost: '1000',
@@ -867,7 +867,7 @@ Skin.create([  #######
                # Hanzo #
                #########
              { hero: heroes[4], title: 'Classic', event: '', cost: 'free',
-               rarity: 'basic', image: '' },
+               rarity: 'common', image: '' },
 
              { hero: heroes[4], title: 'Azuki', event: '', cost: '75',
                rarity: 'rare', image: '' },
@@ -905,7 +905,7 @@ Skin.create([  #######
                # Junkrat #
                ###########
              { hero: heroes[5], title: 'Classic', event: '', cost: 'free',
-               rarity: 'basic', image: '' },
+               rarity: 'common', image: '' },
 
              { hero: heroes[5], title: 'Bleached', event: '', cost: '75',
                rarity: 'rare', image: '' },
@@ -946,7 +946,7 @@ Skin.create([  #######
                # Lucio #
                #########
              { hero: heroes[6], title: 'Classic', event: '', cost: 'free',
-               rarity: 'basic', image: '' },
+               rarity: 'common', image: '' },
 
              { hero: heroes[6], title: 'Vermelho', event: '', cost: '75',
                rarity: 'rare', image: '' },
@@ -990,7 +990,7 @@ Skin.create([  #######
                # Lucio #
                #########
              { hero: heroes[7], title: 'Classic', event: '', cost: 'free',
-               rarity: 'basic', image: '' },
+               rarity: 'common', image: '' },
 
              { hero: heroes[7], title: 'Vermelho', event: '', cost: '75',
                rarity: 'rare', image: '' },
@@ -1034,7 +1034,7 @@ Skin.create([  #######
                # Lucio #
                #########
              { hero: heroes[7], title: 'Classic', event: '', cost: 'free',
-               rarity: 'basic', image: '' },
+               rarity: 'common', image: '' },
 
              { hero: heroes[7], title: 'Vermelho', event: '', cost: '75',
                rarity: 'common', image: '' },
