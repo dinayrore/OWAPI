@@ -776,7 +776,7 @@ Skin.create([  #######
              { hero: heroes[1], title: 'Steambot', event: '', cost: '1000',
                rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/7/71/Bastion_Skin_Steambot.png/100px-Bastion_Skin_Steambot.png?version=8e7a3b31e91ef954938eeeb4035ee0b6' },
 
-             { hero: heroes[1], title: 'Overgrown', event: 'Origins Edition', cost: '1000',
+             { hero: heroes[1], title: 'Overgrown', event: 'Origins Edition', cost: '3000',
                rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/0/08/Bastion_Skin_Overgrown.png/100px-Bastion_Skin_Overgrown.png?version=22e3a87fd2da10e969f445dc33bab019' },
                ########
                # D.Va #
@@ -817,262 +817,309 @@ Skin.create([  #######
              { hero: heroes[2], title: 'Junebug', event: '', cost: '1000',
                rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/9f/D.Va_Skin_Junebug.png/100px-D.Va_Skin_Junebug.png?version=79522ec0e1119e68370a9b31058fcfc3' },
 
-             { hero: heroes[2], title: 'Palanquin', event: 'Year of the Rooster', cost: '1000',
+             { hero: heroes[2], title: 'Palanquin', event: 'Year of the Rooster', cost: '3000',
                rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/f/f2/D.Va_Skin_Palanquin.png/100px-D.Va_Skin_Palanquin.png?version=a35037d21cea2b935093fe135261dbf4' },
                #########
                # Genji #
                #########
              { hero: heroes[3], title: 'Classic', event: '', cost: 'free',
-               rarity: 'common', image: '' },
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/8c/Genji_Skin_Classic.png/100px-Genji_Skin_Classic.png?version=8edeca517d62539915ccbe3e6090adea' },
 
              { hero: heroes[3], title: 'Azurite', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/e/e0/Genji_Skin_Azurite.png/100px-Genji_Skin_Azurite.png?version=56891fa46fb17b21b42f76bb801cb678' },
 
              { hero: heroes[3], title: 'Cinnabar', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/7/72/Genji_Skin_Cinnabar.png/100px-Genji_Skin_Cinnabar.png?version=fda9c58c6ec6b545ad248a16f9f36e19' },
 
              { hero: heroes[3], title: 'Malachite', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/2/23/Genji_Skin_Malachite.png/100px-Genji_Skin_Malachite.png?version=bbe055403a4c3eee128c90fd5c71cff3' },
 
              { hero: heroes[3], title: 'Ochre', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/87/Genji_Skin_Ochre.png/100px-Genji_Skin_Ochre.png?version=9e3eaa05a4515642392ca8a6131d13d9' },
 
              { hero: heroes[3], title: 'Carbon Fiber', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/d/da/Genji_Skin_Carbon_Fiber.png/100px-Genji_Skin_Carbon_Fiber.png?version=cd8b6c9ee3691067a51b6247402d7e2b' },
 
              { hero: heroes[3], title: 'Chrome', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/83/Genji_Skin_Chrome.png/100px-Genji_Skin_Chrome.png?version=1242a6205e2cd6c18b56b0bcc7800a59' },
 
              { hero: heroes[3], title: 'Nihon', event: 'Summer Games', cost: '',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/f/f7/Summer2016_Genji_Skin_Nihon.png/100px-Summer2016_Genji_Skin_Nihon.png?version=3c4726aaea6b1f099325f1da74c3fefb' },
 
              { hero: heroes[3], title: 'Sparrow', event: '', cost: '1000',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/95/Genji_Skin_Sparrow.png/100px-Genji_Skin_Sparrow.png?version=1e56f2c67f1bb7c5f9143f1c44fb98d5' },
 
              { hero: heroes[3], title: 'Young Genji', event: '', cost: '1000',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/e/e5/Genji_Skin_Young_Genji.png/100px-Genji_Skin_Young_Genji.png?version=1bf9b682b45bf5542dc5bc855badb3e3' },
 
              { hero: heroes[3], title: 'Bedouin', event: '', cost: '1000',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/6/65/Genji_Skin_Bedouin.png/100px-Genji_Skin_Bedouin.png?version=301df6eabdc37d0e7dd66ae67ca474d9' },
 
              { hero: heroes[3], title: 'Nomad', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/90/Genji_Skin_Nomad.png/100px-Genji_Skin_Nomad.png?version=d829fcc16099d141cd978187d7615355' },
 
-             { hero: heroes[3], title: 'Oni', event: 'Promo', cost: '1000',
-               rarity: 'legendary', image: '' },
+             { hero: heroes[3], title: 'Oni', event: 'Heroes of the Storm', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/a/ac/Genji_Skin_Oni.png/100px-Genji_Skin_Oni.png?version=10e657d954d97ad8cc427c7eb72016d6' },
 
              { hero: heroes[3], title: 'Blackwatch', event: 'Uprising', cost: '3000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/d/d7/Genji_Skin_Blackwatch.png/100px-Genji_Skin_Blackwatch.png?version=8f64be0276bf8fb2d1ac5b2b4ef2141f' },
                #########
                # Hanzo #
                #########
              { hero: heroes[4], title: 'Classic', event: '', cost: 'free',
-               rarity: 'common', image: '' },
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/c/cb/Hanzo_Skin_Classic.png/100px-Hanzo_Skin_Classic.png?version=a6908b498039ee699172ec45040d4726' },
 
              { hero: heroes[4], title: 'Azuki', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/a/ab/Hanzo_Skin_Azuki.png/100px-Hanzo_Skin_Azuki.png?version=6f9dfb0c848df97fea5b50fd67dfb221' },
 
              { hero: heroes[4], title: 'Kinoko', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/0/03/Hanzo_Skin_Kinoko.png/100px-Hanzo_Skin_Kinoko.png?version=ef0a68c4d5796d0fba258f42697f8c72' },
 
              { hero: heroes[4], title: 'Midori', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/6/6d/Hanzo_Skin_Midori.png/100px-Hanzo_Skin_Midori.png?version=607687b91a4324a8bc1b530f64b8030b' },
 
              { hero: heroes[4], title: 'Sora', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/95/Hanzo_Skin_Sora.png/100px-Hanzo_Skin_Sora.png?version=c062627e1e3e3c1359e569b7fcc0a722' },
 
              { hero: heroes[4], title: 'Cloud', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/b/be/Hanzo_Skin_Cloud.png/100px-Hanzo_Skin_Cloud.png?version=d4f23e8ee59ff2ca59af1039d3fb3566' },
 
              { hero: heroes[4], title: 'Dragon', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/c/cd/Hanzo_Skin_Dragon.png/100px-Hanzo_Skin_Dragon.png?version=c682d5cf39976e9326ce582f92c588c2' },
 
-             { hero: heroes[4], title: 'Demon', event: 'Halloween Terror', cost: '',
-               rarity: 'epic', image: '' },
+             { hero: heroes[4], title: 'Demon', event: 'Halloween Terror', cost: '3000',
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/b/b1/HalloweenTerror_Hanzo_Skin_Demon.png/100px-HalloweenTerror_Hanzo_Skin_Demon.png?version=a68583625ef4faab08b3abee4e413d8f' },
 
              { hero: heroes[4], title: 'Young Hanzo', event: '', cost: '1000',
-               rarity: 'epic', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/a/a3/Hanzo_Skin_Young_Hanzo.png/100px-Hanzo_Skin_Young_Hanzo.png?version=9ecfbc4cd98f608e3a91a6534a93a12f' },
 
              { hero: heroes[4], title: 'Young Master', event: '', cost: '1000',
-               rarity: 'epic', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/5/5d/Hanzo_Skin_Young_Master.png/100px-Hanzo_Skin_Young_Master.png?version=57f0d1b4c9892a02d6a97e1c00eedd14' },
 
              { hero: heroes[4], title: 'Lone Wolf', event: '', cost: '1000',
-               rarity: 'epic', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/6/67/Hanzo_Skin_Lone_Wolf.png/100px-Hanzo_Skin_Lone_Wolf.png?version=eab6b66df192503b294421cb8995476d' },
 
              { hero: heroes[4], title: 'Okami', event: '', cost: '1000',
-               rarity: 'epic', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/7/77/Hanzo_Skin_Okami.png/100px-Hanzo_Skin_Okami.png?version=08c950e957abc431f3704f67fdbd496c' },
                ###########
                # Junkrat #
                ###########
              { hero: heroes[5], title: 'Classic', event: '', cost: 'free',
-               rarity: 'common', image: '' },
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/89/Junkrat_Skin_Classic.png/100px-Junkrat_Skin_Classic.png?version=60e741bc77959a1ac85d63d13286f41e' },
 
              { hero: heroes[5], title: 'Bleached', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/8a/Junkrat_Skin_Bleached.png/100px-Junkrat_Skin_Bleached.png?version=c08010fcbded84a2ba2c557d09166107' },
 
              { hero: heroes[5], title: 'Drowned', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/e/ef/Junkrat_Skin_Drowned.png/100px-Junkrat_Skin_Drowned.png?version=2b25f5e7f67322904877a904e66bb039' },
 
              { hero: heroes[5], title: 'Irradiated', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/c/cc/Junkrat_Skin_Irradiated.png/100px-Junkrat_Skin_Irradiated.png?version=de3940ca1395f220053381ce2df6b868' },
 
              { hero: heroes[5], title: 'Rusted', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/b/b1/Junkrat_Skin_Rusted.png/100px-Junkrat_Skin_Rusted.png?version=9a98085c3e943f061ce20a36613d64cf' },
 
              { hero: heroes[5], title: 'Jailbird', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/0/05/Junkrat_Skin_Jailbird.png/100px-Junkrat_Skin_Jailbird.png?version=a68d59d47fa2bdd5c59923f9cf9b68bb' },
 
              { hero: heroes[5], title: 'Toasted', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/c/cc/Junkrat_Skin_Toasted.png/100px-Junkrat_Skin_Toasted.png?version=fcda2c48a9508ae583560b527117646d' },
 
-             { hero: heroes[5], title: 'Firework', event: 'Year of the Rooster', cost: '',
-               rarity: 'epic', image: '' },
+             { hero: heroes[5], title: 'Firework', event: 'Year of the Rooster', cost: '750',
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/2/20/Junkrat_Skin_Firework.png/100px-Junkrat_Skin_Firework.png?version=bfd1833afa08e3b7c8ddd3d5a0a7791d' },
 
              { hero: heroes[5], title: 'Fool', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/4/49/Junkrat_Skin_Fool.png/100px-Junkrat_Skin_Fool.png?version=e2fa29a02776e25f54eb6048b5ad14d1' },
 
              { hero: heroes[5], title: 'Jester', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/2/2a/Junkrat_Skin_Jester.png/100px-Junkrat_Skin_Jester.png?version=cd04ac8c0387fa937d490083a104b0d2' },
 
-             { hero: heroes[5], title: 'Hayseed', event: 'Uprising', cost: '1000',
-               rarity: 'legendary', image: '' },
+             { hero: heroes[5], title: 'Hayseed', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/1/1f/Junkrat_Skin_Hayseed.png/100px-Junkrat_Skin_Hayseed.png?version=fcf8f429de77299df53fc708baa66abc' },
 
              { hero: heroes[5], title: 'Scarecrow', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/f/ff/Junkrat_Skin_Scarecrow.png/100px-Junkrat_Skin_Scarecrow.png?version=f1f8c9ebf6d3034c97802f01f25d342b' },
 
-             { hero: heroes[5], title: 'Dr. Junkenstein', event: 'Halloween Terror', cost: '',
-               rarity: 'legendary', image: '' },
+             { hero: heroes[5], title: 'Dr. Junkenstein', event: 'Halloween Terror', cost: '3000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/b/b0/HalloweenTerror_Junkrat_Skin_Dr._Junkenstein.png/100px-HalloweenTerror_Junkrat_Skin_Dr._Junkenstein.png?version=dccb84ddcd0726c9c640a9a206755767' },
                #########
                # Lucio #
                #########
              { hero: heroes[6], title: 'Classic', event: '', cost: 'free',
-               rarity: 'common', image: '' },
-
-             { hero: heroes[6], title: 'Vermelho', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/b/bd/L%C3%BAcio_Skin_Classic.png/100px-L%C3%BAcio_Skin_Classic.png?version=72f599224e30964025edecc9f91aa86c' },
 
              { hero: heroes[6], title: 'Azul', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/4/48/L%C3%BAcio_Skin_Azul.png/100px-L%C3%BAcio_Skin_Azul.png?version=22fd238050250b9a4bfe5e32a49b1570' },
 
              { hero: heroes[6], title: 'Laranja', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/5/56/L%C3%BAcio_Skin_Laranja.png/100px-L%C3%BAcio_Skin_Laranja.png?version=1183c054253e08ce99d1021063a43961' },
 
              { hero: heroes[6], title: 'Roxo', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/2/26/L%C3%BAcio_Skin_Roxo.png/100px-L%C3%BAcio_Skin_Roxo.png?version=6618a41e90b379a9bd357ad7d9d46891' },
+
+             { hero: heroes[6], title: 'Vermelho', event: '', cost: '75',
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/9a/L%C3%BAcio_Skin_Vermelho.png/100px-L%C3%BAcio_Skin_Vermelho.png?version=27801740109ff3222ed3d2e126d0be45' },
 
              { hero: heroes[6], title: 'Auditiva', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/6/68/L%C3%BAcio_Skin_Auditiva.png/100px-L%C3%BAcio_Skin_Auditiva.png?version=b4008c444a66564721882ca75c16fc6b' },
 
              { hero: heroes[6], title: 'Synaesthesia', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/1/16/L%C3%BAcio_Skin_Synaesthesia.png/100px-L%C3%BAcio_Skin_Synaesthesia.png?version=da79aeed7ad9389ca957ece40300a2cc' },
 
-             { hero: heroes[6], title: 'Andes', event: 'Winter', cost: '',
-               rarity: 'epic', image: '' },
+             { hero: heroes[6], title: 'Andes', event: 'Winter Wonderland', cost: '',
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/0/0f/L%C3%BAcio_Skin_Andes.png/100px-L%C3%BAcio_Skin_Andes.png?version=c1103a898a5cf242a54adfbbc9456037' },
 
              { hero: heroes[6], title: 'Hippityhop', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/0/07/L%C3%BAcio_Skin_HippityHop.png/100px-L%C3%BAcio_Skin_HippityHop.png?version=115655703ff000513e7d250de0c63104' },
 
-             { hero: heroes[6], title: 'Ribbit', event: 'Year of the Rooster', cost: '1000',
-               rarity: 'legendary', image: '' },
+             { hero: heroes[6], title: 'Ribbit', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/4/4b/L%C3%BAcio_Skin_Ribbit.png/100px-L%C3%BAcio_Skin_Ribbit.png?version=fd7412e5c4d66d86172ff3a836526447' },
 
-             { hero: heroes[6], title: 'Breakaway', event: 'Uprising', cost: '1000',
-               rarity: 'legendary', image: '' },
+             { hero: heroes[6], title: 'Breakaway', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/2/2b/L%C3%BAcio_Skin_Breakaway.png/100px-L%C3%BAcio_Skin_Breakaway.png?version=360a0ff7f4088af6aba5ca57bfe34952' },
 
              { hero: heroes[6], title: 'Slapshot', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/89/L%C3%BAcio_Skin_Slapshot.png/100px-L%C3%BAcio_Skin_Slapshot.png?version=23d16bdf1173c0642eddfe49af42f068' },
 
-             { hero: heroes[6], title: 'Selecao', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+             { hero: heroes[6], title: 'Seleção', event: 'Summer Games', cost: '',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/f/f6/Summer2016_L%C3%BAcio_Skin_Sele%C3%A7%C3%A3o.png/100px-Summer2016_L%C3%BAcio_Skin_Sele%C3%A7%C3%A3o.png?version=95a4ca8508f71b82747a5681d3b025fe' },
 
-             { hero: heroes[6], title: 'Striker', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+             { hero: heroes[6], title: 'Striker', event: 'Summer Games', cost: '',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/5/5f/Summer2016_L%C3%BAcio_Skin_Striker.png/100px-Summer2016_L%C3%BAcio_Skin_Striker.png?version=24c6c277ead40d52c602fe49e1b648d9' },
+               ##########
+               # McCree #
+               ##########
+             { hero: heroes[7], title: 'Classic', event: '', cost: 'free',
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/4/4b/McCree_Skin_Classic.png/100px-McCree_Skin_Classic.png?version=0b9a463fbd9bdcd2fc17a36d1d4efb48' },
+
+             { hero: heroes[7], title: 'Ebony', event: '', cost: '75',
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/9f/McCree_Skin_Ebony.png/100px-McCree_Skin_Ebony.png?version=347851dfd5ce682aa42629498e973aa8' },
+
+             { hero: heroes[7], title: 'Lake', event: '', cost: '75',
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/6/6e/McCree_Skin_Lake.png/100px-McCree_Skin_Lake.png?version=70569ad5e9401fa7df21333a90284c77' },
+
+             { hero: heroes[7], title: 'Sage', event: '', cost: '75',
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/4/4e/McCree_Skin_Sage.png/100px-McCree_Skin_Sage.png?version=0908f2a8302606935cc7e46c2b2472eb' },
+
+             { hero: heroes[7], title: 'Wheat', event: '', cost: '75',
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/9c/McCree_Skin_Wheat.png/100px-McCree_Skin_Wheat.png?version=5d6b90f77fc89cbc6e7fa52d47be1ba5' },
+
+             { hero: heroes[7], title: 'On the Range', event: '', cost: '250',
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/2/26/McCree_Skin_On_the_Range.png/100px-McCree_Skin_On_the_Range.png?version=66166a28cdf1a15bd1e36ea3c869b62f' },
+
+             { hero: heroes[7], title: 'White Hat', event: '', cost: '250',
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/0/0b/McCree_Skin_White_Hat.png/100px-McCree_Skin_White_Hat.png?version=9f600371fbb89d92df6d7e3313ff18fc' },
+
+             { hero: heroes[7], title: 'American', event: 'Summer Games', cost: '',
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/9d/Summer2016_McCree_Skin_American.png/100px-Summer2016_McCree_Skin_American.png?version=610a1ee858ccc81c97e398469b5ad83a' },
+
+             { hero: heroes[7], title: 'Scrooge', event: 'Winter Wonderland', cost: '750',
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/a/a2/McCree_Skin_Scrooge.png/100px-McCree_Skin_Scrooge.png?version=06f2eb317d339bfaa9d1556ece4b3fdf' },
+
+             { hero: heroes[7], title: 'Gambler', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/e/e9/McCree_Skin_Gambler.png/100px-McCree_Skin_Gambler.png?version=80f34d390055a94cd8054403efa3d5f0' },
+
+             { hero: heroes[7], title: 'Riverboat', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/93/McCree_Skin_Riverboat.png/100px-McCree_Skin_Riverboat.png?version=1cfe16ce25a738429f85da6169eac1d9' },
+
+             { hero: heroes[7], title: 'Mystery Man', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/f/fc/McCree_Skin_Mystery_Man.png/100px-McCree_Skin_Mystery_Man.png?version=0508f02d94907aa18d16c4d5d0d285a5' },
+
+             { hero: heroes[7], title: 'Vigilante', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/5/5e/McCree_Skin_Vigilante.png/100px-McCree_Skin_Vigilante.png?version=1a7137d107ef2246f706dd35c2331828' },
+
+             { hero: heroes[7], title: 'Blackwatch', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/3/36/McCree_Skin_Blackwatch.png/100px-McCree_Skin_Blackwatch.png?version=793475356edfb9530fea905311890ef7' },
+               #######
+               # Mei #
+               #######
+             { hero: heroes[7], title: 'Classic', event: '', cost: 'free',
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/c/cb/Mei_Skin_Classic.png/100px-Mei_Skin_Classic.png?version=4cc9e0a4c211046d71300b7cea6510bf' },
+
+             { hero: heroes[7], title: 'Chrysanthemum', event: '', cost: '75',
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/85/Mei_Skin_Chrysanthemum.png/100px-Mei_Skin_Chrysanthemum.png?version=950b12d96e53e921f0573c75190b5173' },
+
+             { hero: heroes[7], title: 'Heliotrope', event: '', cost: '75',
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/93/Mei_Skin_Heliotrope.png/100px-Mei_Skin_Heliotrope.png?version=745a4d6a382a0be535e3ac1da38f17dd' },
+
+             { hero: heroes[7], title: 'Jade', event: '', cost: '75',
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/9/9f/Mei_Skin_Jade.png/100px-Mei_Skin_Jade.png?version=57d0ca7b680b4e335127af0016e5326e' },
+
+             { hero: heroes[7], title: 'Persimmon', event: '', cost: '75',
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/d/d2/Mei_Skin_Persimmon.png/100px-Mei_Skin_Persimmon.png?version=983d1e86cd42f76aaef02481557f430d' },
+
+             { hero: heroes[7], title: 'Earthen', event: '', cost: '250',
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/0/05/Mei_Skin_Earthen.png/100px-Mei_Skin_Earthen.png?version=701c05aea5806e4becbf757b73510e6d' },
+
+             { hero: heroes[7], title: 'Snow Plum', event: '', cost: '250',
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/3/34/Mei_Skin_Snow_Plum.png/100px-Mei_Skin_Snow_Plum.png?version=91b00d557c70b46cb436b203958eaac3' },
+
+             { hero: heroes[7], title: 'Firefighter', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/a/ab/Mei_Skin_Firefighter.png/100px-Mei_Skin_Firefighter.png?version=94cf1c5e31d17cace98016217d6c020d' },
+
+             { hero: heroes[7], title: 'Rescue Mei', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/a/a4/Mei_Skin_Rescue_Mei.png/100px-Mei_Skin_Rescue_Mei.png?version=c2820af27cae18dc56e531222209cc8b' },
+
+             { hero: heroes[7], title: 'Abominable', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/0/0b/Mei_Skin_Abominable.png/100px-Mei_Skin_Abominable.png?version=9feb71d1c3d5e938b1b8f1b0a2a41e09' },
+
+             { hero: heroes[7], title: 'Yeti Hunter', event: '', cost: '1000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/f/f4/Mei_Skin_Yeti_Hunter.png/100px-Mei_Skin_Yeti_Hunter.png?version=ab863a28e8a496684e54669a2617faf0' },
+
+             { hero: heroes[7], title: 'Mei-rry', event: 'Winter Wonderland', cost: '3000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/0/07/Mei_Skin_Mei-rry.png/100px-Mei_Skin_Mei-rry.png?version=97913a5c80b660c251d701c32172883e' },
+
+             { hero: heroes[7], title: "Chang\'e", event: 'Year of the Rooster', cost: '3000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/6/6b/Mei_Skin_Chang%27e.png/100px-Mei_Skin_Chang%27e.png?version=8b9797acf2b26f8b8d0d684b36d097a4' },
+
+             { hero: heroes[7], title: 'Luna', event: 'Year of the Rooster', cost: '3000',
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/4/44/Mei_Skin_Luna.png/100px-Mei_Skin_Luna.png?version=509afbffc9657e71a262f17086a47ea8' },
                #########
-               # Lucio #
+               # Mercy #
                #########
              { hero: heroes[7], title: 'Classic', event: '', cost: 'free',
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/1/10/Mercy_Skin_Classic.png/100px-Mercy_Skin_Classic.png?version=e2208d47a49c0bb079a68bc978bbc792' },
+
+             { hero: heroes[7], title: 'Celestial', event: '', cost: '75',
+               rarity: 'common', image: '21f0573c75190b5173' },
+
+             { hero: heroes[7], title: 'Mist', event: '', cost: '75',
+               rarity: 'common', image: 'ac1da38f17dd' },
+
+             { hero: heroes[7], title: 'Orchid', event: '', cost: '75',
                rarity: 'common', image: '' },
 
-             { hero: heroes[7], title: 'Vermelho', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+             { hero: heroes[7], title: 'Verdant', event: '', cost: '75',
+               rarity: 'common', image: '81557f430d' },
 
-             { hero: heroes[7], title: 'Azul', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+             { hero: heroes[7], title: 'Amber', event: '', cost: '250',
+               rarity: 'epic', image: '510e6d' },
 
-             { hero: heroes[7], title: 'Laranja', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+             { hero: heroes[7], title: 'Cobalt', event: '', cost: '250',
+               rarity: 'epic', image: '03958eaac3' },
 
-             { hero: heroes[7], title: 'Roxo', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+             { hero: heroes[7], title: 'Eidgenossin', event: '', cost: '1000',
+               rarity: 'epic', image: '8016217d6c020d' },
 
-             { hero: heroes[7], title: 'Auditiva', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+             { hero: heroes[7], title: 'Fortune', event: '', cost: '1000',
+               rarity: 'legendary', image: '31222209cc8b' },
 
-             { hero: heroes[7], title: 'Synaesthesia', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+             { hero: heroes[7], title: 'Sigrún', event: '', cost: '1000',
+               rarity: 'legendary', image: 'f1b0a2a41e09' },
 
-             { hero: heroes[7], title: 'Andes', event: 'Winter', cost: '',
-               rarity: 'epic', image: '' },
+             { hero: heroes[7], title: 'Valkyrie', event: '', cost: '1000',
+               rarity: 'legendary', image: '54669a2617faf0' },
 
-             { hero: heroes[7], title: 'Hippityhop', event: '', cost: '1000',
+             { hero: heroes[7], title: 'Devil', event: 'Winter Wonderland', cost: '3000',
+               rarity: 'legendary', image: '72883e' },
+
+             { hero: heroes[7], title: 'Imp', event: 'Year of the Rooster', cost: '3000',
+               rarity: 'legendary', image: '4b36d097a4' },
+
+             { hero: heroes[7], title: 'Witch', event: 'Year of the Rooster', cost: '3000',
                rarity: 'legendary', image: '' },
 
-             { hero: heroes[7], title: 'Ribbit', event: 'Year of the Rooster', cost: '1000',
-               rarity: 'legendary', image: '' },
-
-             { hero: heroes[7], title: 'Breakaway', event: 'Uprising', cost: '1000',
-               rarity: 'legendary', image: '' },
-
-             { hero: heroes[7], title: 'Slapshot', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
-
-             { hero: heroes[7], title: 'Selecao', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
-
-             { hero: heroes[7], title: 'Striker', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
-               #########
-               # Lucio #
-               #########
-             { hero: heroes[7], title: 'Classic', event: '', cost: 'free',
-               rarity: 'common', image: '' },
-
-             { hero: heroes[7], title: 'Vermelho', event: '', cost: '75',
-               rarity: 'common', image: '' },
-
-             { hero: heroes[7], title: 'Azul', event: '', cost: '75',
-               rarity: 'common', image: '' },
-
-             { hero: heroes[7], title: 'Laranja', event: '', cost: '75',
-               rarity: 'common', image: '' },
-
-             { hero: heroes[7], title: 'Roxo', event: '', cost: '75',
-               rarity: 'common', image: '' },
-
-             { hero: heroes[7], title: 'Auditiva', event: '', cost: '250',
-               rarity: 'epic', image: '' },
-
-             { hero: heroes[7], title: 'Synaesthesia', event: '', cost: '250',
-               rarity: 'epic', image: '' },
-
-             { hero: heroes[7], title: 'Andes', event: 'Winter', cost: '',
-               rarity: 'epic', image: '' },
-
-             { hero: heroes[7], title: 'Hippityhop', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
-
-             { hero: heroes[7], title: 'Ribbit', event: 'Year of the Rooster', cost: '1000',
-               rarity: 'legendary', image: '' },
-
-             { hero: heroes[7], title: 'Breakaway', event: 'Uprising', cost: '1000',
-               rarity: 'legendary', image: '' },
-
-             { hero: heroes[7], title: 'Slapshot', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
-
-             { hero: heroes[7], title: 'Selecao', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
-
-             { hero: heroes[7], title: 'Striker', event: '', cost: '1000',
+             { hero: heroes[7], title: 'Combat Medic Ziegler', event: 'Year of the Rooster', cost: '3000',
                rarity: 'legendary', image: '' },
 
 
