@@ -808,72 +808,72 @@ Skin.create([  #######
                # Genji #
                #########
              { hero: heroes[3], title: 'Classic', event: '', cost: 'free',
-               rarity: 'common', image: '' },
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/8/8c/Genji_Skin_Classic.png' },
 
              { hero: heroes[3], title: 'Azurite', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/e/e0/Genji_Skin_Azurite.png' },
 
              { hero: heroes[3], title: 'Cinnabar', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/7/72/Genji_Skin_Cinnabar.png' },
 
              { hero: heroes[3], title: 'Malachite', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/2/23/Genji_Skin_Malachite.png' },
 
              { hero: heroes[3], title: 'Ochre', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/8/87/Genji_Skin_Ochre.png' },
 
              { hero: heroes[3], title: 'Carbon Fiber', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/d/da/Genji_Skin_Carbon_Fiber.png' },
 
              { hero: heroes[3], title: 'Chrome', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/8/83/Genji_Skin_Chrome.png' },
 
              { hero: heroes[3], title: 'Nihon', event: 'Summer Games', cost: '',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/f/f7/Summer2016_Genji_Skin_Nihon.png' },
 
              { hero: heroes[3], title: 'Sparrow', event: '', cost: '1000',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/9/95/Genji_Skin_Sparrow.png' },
 
              { hero: heroes[3], title: 'Young Genji', event: '', cost: '1000',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/e/e5/Genji_Skin_Young_Genji.png' },
 
              { hero: heroes[3], title: 'Bedouin', event: '', cost: '1000',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/6/65/Genji_Skin_Bedouin.png' },
 
              { hero: heroes[3], title: 'Nomad', event: '', cost: '1000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/9/90/Genji_Skin_Nomad.png' },
 
              { hero: heroes[3], title: 'Oni', event: 'Heroes of the Storm', cost: '',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/a/ac/Genji_Skin_Oni.png' },
 
              { hero: heroes[3], title: 'Blackwatch', event: 'Uprising', cost: '3000',
-               rarity: 'legendary', image: '' },
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/d/d7/Genji_Skin_Blackwatch.png' },
                #########
                # Hanzo #
                #########
              { hero: heroes[4], title: 'Classic', event: '', cost: 'free',
-               rarity: 'common', image: '' },
+               rarity: 'common', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/c/cb/Hanzo_Skin_Classic.png' },
 
              { hero: heroes[4], title: 'Azuki', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/a/ab/Hanzo_Skin_Azuki.png' },
 
              { hero: heroes[4], title: 'Kinoko', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/0/03/Hanzo_Skin_Kinoko.png' },
 
              { hero: heroes[4], title: 'Midori', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/6/6d/Hanzo_Skin_Midori.png' },
 
              { hero: heroes[4], title: 'Sora', event: '', cost: '75',
-               rarity: 'rare', image: '' },
+               rarity: 'rare', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/9/95/Hanzo_Skin_Sora.png' },
 
              { hero: heroes[4], title: 'Cloud', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/b/be/Hanzo_Skin_Cloud.png' },
 
              { hero: heroes[4], title: 'Dragon', event: '', cost: '250',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/c/cd/Hanzo_Skin_Dragon.png' },
 
              { hero: heroes[4], title: 'Demon', event: 'Halloween Terror', cost: '750',
-               rarity: 'epic', image: '' },
+               rarity: 'epic', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/b/b1/HalloweenTerror_Hanzo_Skin_Demon.png' },
 
              { hero: heroes[4], title: 'Young Hanzo', event: '', cost: '1000',
                rarity: 'legendary', image: '' },
