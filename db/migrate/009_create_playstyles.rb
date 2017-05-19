@@ -8,6 +8,7 @@ class CreatePlaystyles < ActiveRecord::Migration[5.0]
       t.string :effective_against
       t.string :weak_against
       t.string :synergy
+      t.integer :season
 
       t.timestamps
     end
