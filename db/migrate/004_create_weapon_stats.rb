@@ -1,7 +1,7 @@
 #
 class CreateWeaponStats < ActiveRecord::Migration[5.0]
   def change
-    create_table :stats do |t|
+    create_table :weapon_stats do |t|
       t.references :weapon, index: true, foreign_key: true
       t.integer :ammo
       t.integer :fire_rate
