@@ -65,7 +65,7 @@ heroes = Hero.create([
                         occupation: 'Security Chief', base_of_operations: 'Giza, Egypt',
                         affiliation: 'Heliz Security International',
                         background: 'https://blzgdapipro-a.akamaihd.net/hero/pharah/background-story.jpg',
-                        image: 'https://blzgdapipro-a.akamaihd.net/hero/pharah/icon-portrait.png' }},
+                        image: 'https://blzgdapipro-a.akamaihd.net/hero/pharah/icon-portrait.png' },
 
                       { name: 'Reaper', real_name: 'Gabriel Reyes', age: 'Unknown',
                         occupation: 'Mercenary', base_of_operations: 'Unknown',
@@ -147,38 +147,38 @@ heroes = Hero.create([
                         affiliation: 'None', background: 'https://blzgdapipro-a.akamaihd.net/hero/orisa/background-story.jpg',
                         image: 'https://blzgdapipro-a.akamaihd.net/hero/orisa/icon-portrait.png' }
 
-                      ])
+                      ]);
 
-HeroStat.create([ ############################
-                  # Hero / Health Statistics #
-                  ############################
-                 { hero: heroes.first, health: 200, armor: 0, sheild: 0 },
-                 { hero: heroes[1], health: 200, armor: 100, sheild: 0 },
-                 { hero: heroes[1], health: 200, armor: 250, sheild: 0 },
-                 { hero: heroes[2], health: 100, armor: 400, sheild: 0 },
-                 { hero: heroes[2], health: 150, armor: 0, sheild: 0 },
-                 { hero: heroes[3], health: 200, armor: 0, sheild: 0 },
-                 { hero: heroes[4], health: 200, armor: 0, sheild: 0 },
-                 { hero: heroes[5], health: 200, armor: 0, sheild: 0 },
-                 { hero: heroes[6], health: 200, armor: 0, sheild: 0 },
-                 { hero: heroes[7], health: 200, armor: 0, sheild: 0 },
-                 { hero: heroes[8], health: 250, armor: 0, sheild: 0 },
-                 { hero: heroes[9], health: 200, armor: 0, sheild: 0 },
-                 { hero: heroes[10], health: 200, armor: 0, sheild: 0 },
-                 { hero: heroes[11], health: 250, armor: 0, sheild: 0 },
-                 { hero: heroes[12], health: 300, armor: 200, sheild: 0 },
-                 { hero: heroes[13], health: 600, armor: 0, sheild: 0 },
-                 { hero: heroes[14], health: 200, armor: 0, sheild: 0  },
-                 { hero: heroes[15], health: 100, armor: 0, sheild: 100 },
-                 { hero: heroes[16], health: 200, armor: 0, sheild: 0 },
-                 { hero: heroes[17], health: 150, armor: 0, sheild: 0 },
-                 { hero: heroes[18], health: 200, armor: 0, sheild: 0 },
-                 { hero: heroes[19], health: 400, armor: 100, sheild: 0 },
-                 { hero: heroes[20], health: 200, armor: 0, sheild: 200 },
-                 { hero: heroes[21], health: 50, armor: 0, sheild: 150 },
-                 { hero: heroes[22], health: 200, armor: 0, sheild: 0 },
-                 { hero: hero[23], health: 200, armor: 200, sheild: 0 }
-                ])
+Stat.create([ ############################
+              # Hero / Health Statistics #
+              ############################
+             { hero: heroes.first, health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[1], health: 200, armor: 100, sheild: 0 },
+             { hero: heroes[1], health: 200, armor: 250, sheild: 0 },
+             { hero: heroes[2], health: 100, armor: 400, sheild: 0 },
+             { hero: heroes[2], health: 150, armor: 0, sheild: 0 },
+             { hero: heroes[3], health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[4], health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[5], health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[6], health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[7], health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[8], health: 250, armor: 0, sheild: 0 },
+             { hero: heroes[9], health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[10], health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[11], health: 250, armor: 0, sheild: 0 },
+             { hero: heroes[12], health: 300, armor: 200, sheild: 0 },
+             { hero: heroes[13], health: 600, armor: 0, sheild: 0 },
+             { hero: heroes[14], health: 200, armor: 0, sheild: 0  },
+             { hero: heroes[15], health: 100, armor: 0, sheild: 100 },
+             { hero: heroes[16], health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[17], health: 150, armor: 0, sheild: 0 },
+             { hero: heroes[18], health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[19], health: 400, armor: 100, sheild: 0 },
+             { hero: heroes[20], health: 200, armor: 0, sheild: 200 },
+             { hero: heroes[21], health: 50, armor: 0, sheild: 150 },
+             { hero: heroes[22], health: 200, armor: 0, sheild: 0 },
+             { hero: heroes[23], health: 200, armor: 200, sheild: 0 }
+            ]);
 
 weapons = Weapon.create([ #######
                           # Ana #
@@ -638,15 +638,15 @@ weapons = Weapon.create([ #######
 
                          { title: 'Supercharger (Ultimate)', hero: heroes[23],
                            description: 'Orisa deploys a device to increase damage inflicted by allies within her line of sight.',
-                           image: 'https://blzgdapipro-a.akamaihd.net/hero/orisa/ability-supercharger/icon-ability.png' },
+                           image: 'https://blzgdapipro-a.akamaihd.net/hero/orisa/ability-supercharger/icon-ability.png' }
 
-                        ])
+                        ]);
 
-WeaponStat.create([ #####################
-                    # Weapon Statistics #
-                    #####################
-                    { weapon: , ammo: ,	fire_rate: , duration: , cooldown: , damage: , range: }
-                    ])
+# Spec.create([ #####################
+#                     # Weapon Statistics #
+#                     #####################
+#                     { weapon: , ammo: ,	fire_rate: , duration: , cooldown: , damage: , range: }
+#                     ])
 
 controls = Control.create([
                            { hotkey: 'Left Click',
@@ -663,11 +663,11 @@ controls = Control.create([
 
                            { hotkey: 'E',
                              xbox: 'http://37g1m64fq1u437qtr32nn67f.wpengine.netdna-cdn.com/wp-content/uploads/2016/05/360_RB.png'}
-                          ])
+                          ]);
 
-WeaponControl.create([{
-
-  }])
+# WeaponControl.create([{
+#
+#   }])
 
 Skin.create([  #######
                # Ana #
@@ -1715,13 +1715,13 @@ Skin.create([  #######
                rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/2/2b/Orisa_Skin_Protector.png' },
 
              { hero: heroes[23], title: 'Null Sector', event: 'Uprising', cost: '3000',
-               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/8/84/Orisa_Skin_Null_Sector.png' },
-  }])
+               rarity: 'legendary', image: 'https://hydra-media.cursecdn.com/overwatch.gamepedia.com/8/84/Orisa_Skin_Null_Sector.png' }
+  ]);
 
-Map.create([{
-
-  }])
-
-Playstyle.create([{
-
-  }])
+# Map.create([{
+#
+#   }])
+#
+# Playstyle.create([{
+#
+#   }])
